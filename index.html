@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语学习网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">英语学习</div>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#vocabulary">单词学习</a></li>
+                <li><a href="#grammar">语法学习</a></li>
+                <li><a href="#listening">听力练习</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>欢迎来到英语学习网站</h1>
+                <p>通过单词、语法和听力练习，提高你的英语水平</p>
+                <button class="btn">开始学习</button>
+            </div>
+        </section>
+
+        <section id="vocabulary" class="section">
+            <h2>单词学习</h2>
+            <div class="vocabulary-cards">
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Apple</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>苹果</p>
+                        <p class="example">I eat an apple every day.</p>
+                        <button class="play-btn">🔊</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Banana</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>香蕉</p>
+                        <p class="example">Bananas are yellow.</p>
+                        <button class="play-btn">🔊</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-front">
+                        <h3>Cat</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>猫</p>
+                        <p class="example">The cat is sleeping.</p>
+                        <button class="play-btn">🔊</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="grammar" class="section">
+            <h2>语法学习</h2>
+            <div class="grammar-content">
+                <div class="grammar-rule">
+                    <h3>一般现在时</h3>
+                    <p>表示经常发生的动作或存在的状态。</p>
+                    <p class="example">I go to school every day.</p>
+                </div>
+                <div class="grammar-rule">
+                    <h3>现在进行时</h3>
+                    <p>表示正在进行的动作。</p>
+                    <p class="example">She is reading a book.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="listening" class="section">
+            <h2>听力练习</h2>
+            <div class="listening-content">
+                <div class="audio-player">
+                    <h3>日常对话</h3>
+                    <audio controls>
+                        <source src="audio/sample.mp3" type="audio/mpeg">
+                        您的浏览器不支持音频元素。
+                    </audio>
+                    <div class="quiz">
+                        <p>What is the main topic of the conversation?</p>
+                        <div class="options">
+                            <label><input type="radio" name="q1" value="A"> A. Weather</label>
+                            <label><input type="radio" name="q1" value="B"> B. Food</label>
+                            <label><input type="radio" name="q1" value="C"> C. Travel</label>
+                        </div>
+                        <button class="submit-btn">提交答案</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 英语学习网站. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
